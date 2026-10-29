@@ -1,3 +1,9 @@
+/* Fonts are served from this site, never fetched from Google Fonts: no visitor data goes to a third party. */
+@font-face { font-family: 'Manrope'; font-weight: 400; font-display: swap; src: url('fonts/Manrope_400Regular.ttf') format('truetype'); }
+@font-face { font-family: 'Manrope'; font-weight: 500; font-display: swap; src: url('fonts/Manrope_500Medium.ttf') format('truetype'); }
+@font-face { font-family: 'Manrope'; font-weight: 700; font-display: swap; src: url('fonts/Manrope_700Bold.ttf') format('truetype'); }
+@font-face { font-family: 'Bricolage Grotesque'; font-weight: 700; font-display: swap; src: url('fonts/BricolageGrotesque_700Bold.ttf') format('truetype'); }
+
 :root {
   --bg: #f4f2ee;
   --card: #ffffff;
