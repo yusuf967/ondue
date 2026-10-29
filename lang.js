@@ -18,10 +18,6 @@
   apply(lang);
   document.addEventListener('DOMContentLoaded', function () {
     apply(lang);
-    // The app links privacy.html#kvkk; each language has its own copy of that section.
-    var anchor = { '#kvkk': 'kvkk-en', '#kvkk-en': 'kvkk' }[location.hash];
-    var target = anchor && lang === (anchor === 'kvkk' ? 'tr' : 'en') ? document.getElementById(anchor) : null;
-    if (target) target.scrollIntoView();
     document.querySelectorAll('.lang button').forEach(function (b) {
       b.addEventListener('click', function () {
         lang = b.dataset.lang;
